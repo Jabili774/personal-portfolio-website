@@ -3,45 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jabili Suvvari Portfolio</title>
-
-    <!-- CSS Connection -->
+    <title>Jabili Suvvari | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Jabili Suvvari</h1>
-        <p>Software Developer | CSE Student</p>
+    <header class="hero">
+        <div class="container">
+            <img src="profile.jpg" alt="Jabili" class="profile-pic">
+
+            <h1>Jabili Suvvari</h1>
+
+            <h3>Computer Science Engineering Student</h3>
+
+            <p>
+                Aspiring Software Developer passionate about Java,
+                Data Structures, DBMS and Web Development.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="resume.pdf" class="btn" download>Download Resume</a>
+        </div>
     </header>
 
     <section>
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science Engineering student at Mohan Babu University
-            with a CGPA of 9.1. Passionate about Java, DSA, DBMS, and Web Development.
-        </p>
+        <div class="container">
+            <h2>About Me</h2>
+
+            <p class="about">
+                I am a Computer Science Engineering student at
+                Mohan Babu University with a CGPA of 9.1.
+                I am currently preparing for Software Development
+                roles and enjoy building web applications and solving
+                Data Structures & Algorithms problems.
+            </p>
+        </div>
     </section>
 
     <section>
-        <h2>Skills</h2>
+        <div class="container">
+            <h2>Education</h2>
 
-        <div class="skill">Java</div>
-        <div class="skill">SQL</div>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">DBMS</div>
+            <div class="card">
+                <h3>Mohan Babu University</h3>
+                <p>B.Tech - Computer Science Engineering</p>
+                <p>CGPA: 9.1</p>
+                <p>Expected Graduation: 2027</p>
+            </div>
+        </div>
     </section>
 
     <section>
-        <h2>Contact</h2>
-        <p>Email: megna1256@gmail.com</p>
+        <div class="container">
+            <h2>Skills</h2>
 
-        <button id="messageBtn">Say Hello</button>
+            <div class="skills">
+                <span>Java</span>
+                <span>SQL</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>DBMS</span>
+                <span>MongoDB</span>
+                <span>Data Structures</span>
+            </div>
+        </div>
     </section>
 
-    <!-- JavaScript Connection -->
+    <section>
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+
+                <div class="card">
+                    <h3>Expense Tracker</h3>
+                    <p>Track expenses using HTML, CSS and JavaScript.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Spotify Clone</h3>
+                    <p>Responsive music player UI using modern web technologies.</p>
+                </div>
+
+                <div class="card">
+                    <h3>REST API Backend</h3>
+                    <p>Node.js, Express.js, MongoDB and JWT Authentication.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Certifications</h2>
+
+            <div class="card">
+                <ul>
+                    <li>NPTEL Certifications</li>
+                    <li>Infosys Springboard Courses</li>
+                    <li>Java Programming Certifications</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+
+            <p>Email: <a href="mailto:megna1256@gmail.com">megna1256@gmail.com</a></p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/Jabili774" target="_blank">
+                    github.com/Jabili774
+                </a>
+            </p>
+
+            <button id="messageBtn">Say Hello</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Jabili Suvvari | Portfolio</p>
+    </footer>
+
     <script src="script.js"></script>
 
 </body>
